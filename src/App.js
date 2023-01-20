@@ -5,7 +5,7 @@ import Search from "./components/Search/index.js";
 const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(90deg, #002f52 35%, #326589);
+  background-image: linear-gradient(90deg, #e5dcd0 25%, #2f2e2e 185%);
 `;
 
 function App() {

@@ -9,14 +9,17 @@ const Option = styled.li`
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-width: 120px;
-  font-size: 16px;
+  min-width: 100px;
+  font-size: 14px;
   height: 100%;
   cursor: pointer;
   padding: 0 5px;
+  font-family: 'Helvetica';
+  color: #7b1f84;
+  font-weight: bold;
 `;
 
-const textOptions = ["CATEGORIAS", "FAVORITOS", "MINHA ESTANTE"];
+const textOptions = ["Categorias", "Favoritos", "Minha estante"];
 
 function OptionsHeader() {
   return (

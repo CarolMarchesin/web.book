@@ -4,9 +4,10 @@ import OptionsHeader from "../OptionsHeader";
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-  background-color: #fff;
+  background-image: linear-gradient(90deg, #e5dcd0 25%, #2f2e2e 185%);
   display: flex;
   justify-content: center;
+  
 `;
 
 function Header() {
